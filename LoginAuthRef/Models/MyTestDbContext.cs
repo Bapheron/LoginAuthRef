@@ -12,6 +12,7 @@ namespace LoginAuthRef.Models
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
 
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Data Source=(localdb)\\Local;Initial Catalog=LogRegRefDb;Integrated Security=True;Trust Server Certificate=True");

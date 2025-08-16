@@ -22,10 +22,10 @@ namespace LoginAuthRef
     /// </summary>
     public partial class LoginWindow : Window
     {
-
-        private readonly AuthService _authService;
         private IServiceProvider _serviceProvider;
         private readonly MyTestDbContext _testDBConext;
+        private readonly AuthService _authService;
+
         public LoginWindow(IServiceProvider serviceProvider)
         {
             InitializeComponent();

@@ -17,7 +17,7 @@ namespace LoginAuthRef.Models
         public string Name { get; set; }
         public string Phone { get; set; }
 
-        public int RoleId { get; set; }
-        public Role Role { get; set; }
+        public int RoleId { get; set; } //Пример названия: TestId
+        public Role Role { get; set; } //Пример: Test
     }
 }
